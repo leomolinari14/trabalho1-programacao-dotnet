@@ -44,10 +44,12 @@ dotnet run --project Questao3ReservaHotel
 
 A questão 1 está concluída. Ao executá-la, o console apresenta exemplos dos sete resultados possíveis: aluno autorizado e no limite, professor autorizado e no limite, visitante, usuário não classificado e objeto nulo. Os dados usados são fictícios.
 
-As questões 2 e 3 possuem a estrutura inicial e serão implementadas nos próximos commits.
+A questão 2 está concluída. Um equipamento com dados fictícios é exibido de duas formas: a Reflection aberta mostra as seis propriedades públicas; a controlada mostra somente `Nome`, `Fabricante`, `Valor` e `Localizacao`, marcadas com `[Exibir]`. `Id` e `NumeroSerie` aparecem apenas na saída aberta.
+
+A questão 3 possui a estrutura inicial e será implementada nos próximos commits.
 
 - [x] Criar a solução e os três projetos Console.
 - [x] Implementar e verificar a questão 1.
-- [ ] Implementar e verificar a questão 2.
+- [x] Implementar e verificar a questão 2.
 - [ ] Implementar e verificar a questão 3.
 - [ ] Completar a documentação com exemplos dos resultados.
