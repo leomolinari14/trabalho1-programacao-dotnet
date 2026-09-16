@@ -42,10 +42,12 @@ dotnet run --project Questao3ReservaHotel
 
 ## Etapa atual
 
-Estrutura inicial criada. As aplicações exibem o título de cada questão; as classes e funcionalidades serão implementadas nos próximos commits.
+A questão 1 está concluída. Ao executá-la, o console apresenta exemplos dos sete resultados possíveis: aluno autorizado e no limite, professor autorizado e no limite, visitante, usuário não classificado e objeto nulo. Os dados usados são fictícios.
+
+As questões 2 e 3 possuem a estrutura inicial e serão implementadas nos próximos commits.
 
 - [x] Criar a solução e os três projetos Console.
-- [ ] Implementar e verificar a questão 1.
+- [x] Implementar e verificar a questão 1.
 - [ ] Implementar e verificar a questão 2.
 - [ ] Implementar e verificar a questão 3.
 - [ ] Completar a documentação com exemplos dos resultados.
