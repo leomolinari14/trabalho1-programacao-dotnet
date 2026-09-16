@@ -26,7 +26,14 @@ dotnet --version
 
 ## Compilar
 
-No diretório que contém `Trabalho1.sln`, execute:
+Clone o repositório e entre na pasta:
+
+```sh
+git clone https://github.com/leomolinari14/trabalho1-programacao-dotnet.git
+cd trabalho1-programacao-dotnet
+```
+
+No diretório que contém `Trabalho1.sln`, execute. O comando também restaura as dependências:
 
 ```sh
 dotnet build Trabalho1.sln
@@ -40,16 +47,18 @@ dotnet run --project Questao2Reflection
 dotnet run --project Questao3ReservaHotel
 ```
 
-## Etapa atual
+## Exemplos apresentados
 
-A questão 1 está concluída. Ao executá-la, o console apresenta exemplos dos sete resultados possíveis: aluno autorizado e no limite, professor autorizado e no limite, visitante, usuário não classificado e objeto nulo. Os dados usados são fictícios.
+Os dados dos exemplos são fictícios. Cada programa executa a demonstração e encerra automaticamente.
 
-A questão 2 está concluída. Um equipamento com dados fictícios é exibido de duas formas: a Reflection aberta mostra as seis propriedades públicas; a controlada mostra somente `Nome`, `Fabricante`, `Valor` e `Localizacao`, marcadas com `[Exibir]`. `Id` e `NumeroSerie` aparecem apenas na saída aberta.
+- **Questão 1:** alunos com 2 e 3 empréstimos, professores com 4 e 5, visitante, usuário da classe base e objeto nulo. Por exemplo, o aluno com 2 empréstimos recebe "Empréstimo autorizado para aluno" e o aluno com 3 recebe "Limite de empréstimos atingido para aluno".
+- **Questão 2:** a saída aberta mostra as seis propriedades de `Equipamento`; a controlada mostra somente `Nome`, `Fabricante`, `Valor` e `Localizacao`, marcadas com `[Exibir]`. `Id` e `NumeroSerie` aparecem apenas na saída aberta. A apresentação numérica segue a configuração regional do computador.
+- **Questão 3:** a reserva de Ana Souza, quarto 203, tem 3 diárias de R$ 250,50. O DTO gera o relatório abaixo, sem expor `Id`, `ValorDiaria`, `StatusInterno` ou `ObservacaoInterna`:
 
-A questão 3 possui a estrutura inicial e será implementada nos próximos commits.
-
-- [x] Criar a solução e os três projetos Console.
-- [x] Implementar e verificar a questão 1.
-- [x] Implementar e verificar a questão 2.
-- [ ] Implementar e verificar a questão 3.
-- [ ] Completar a documentação com exemplos dos resultados.
+```text
+Hóspede: Ana Souza
+Quarto: 203
+Quantidade de diárias: 3
+Valor total: R$ 751,50
+Situação: Reserva confirmada
+```
