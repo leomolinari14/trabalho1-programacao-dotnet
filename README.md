@@ -4,7 +4,7 @@ Trabalho individual com três aplicações Console em C#.
 
 - Aluno: Leonardo Molinari
 - Professor: Prof. Me. Lucas Teodoro dos Santos
-- Entrega: 30/09/2026
+
 
 ## Organização
 
